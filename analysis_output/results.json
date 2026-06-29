@@ -346,5 +346,101 @@
       "4": 348.7
     }
   },
-  "wtp_stacked": 2086.2
+  "wtp_stacked": 2086.2,
+  "team_comparison": {
+    "ref_team": "樂天桃猿",
+    "interaction_LR": 103.94,
+    "interaction_df": 80,
+    "interaction_p": 0.0373,
+    "per_attr": {
+      "price": {
+        "LR": 19.77,
+        "df": 15,
+        "p": 0.1808
+      },
+      "media": {
+        "LR": 16.81,
+        "df": 15,
+        "p": 0.3301
+      },
+      "ticket": {
+        "LR": 16.54,
+        "df": 10,
+        "p": 0.0851
+      },
+      "interact": {
+        "LR": 31.73,
+        "df": 15,
+        "p": 0.007
+      },
+      "freetix": {
+        "LR": 30.46,
+        "df": 10,
+        "p": 0.0007
+      },
+      "gift": {
+        "LR": 28.24,
+        "df": 15,
+        "p": 0.0201
+      }
+    },
+    "team_n": {
+      "樂天桃猿": 19,
+      "中信兄弟": 17,
+      "富邦悍將": 11,
+      "統一獅": 11,
+      "味全龍": 11,
+      "台鋼雄鷹": 5
+    },
+    "team_importance": {
+      "樂天桃猿": {
+        "price": 23.0,
+        "media": 21.8,
+        "ticket": 0.5,
+        "interact": 22.6,
+        "freetix": 19.2,
+        "gift": 12.8
+      },
+      "中信兄弟": {
+        "price": 29.5,
+        "media": 22.0,
+        "ticket": 14.8,
+        "interact": 21.4,
+        "freetix": 5.3,
+        "gift": 7.1
+      },
+      "富邦悍將": {
+        "price": 22.9,
+        "media": 22.6,
+        "ticket": 9.6,
+        "interact": 18.8,
+        "freetix": 12.9,
+        "gift": 13.1
+      },
+      "統一獅": {
+        "price": 36.2,
+        "media": 9.3,
+        "ticket": 11.7,
+        "interact": 16.1,
+        "freetix": 11.8,
+        "gift": 15.0
+      },
+      "味全龍": {
+        "price": 32.4,
+        "media": 21.7,
+        "ticket": 14.7,
+        "interact": 12.7,
+        "freetix": 4.2,
+        "gift": 14.4
+      },
+      "台鋼雄鷹": {
+        "price": 20.7,
+        "media": 16.3,
+        "ticket": 17.6,
+        "interact": 7.2,
+        "freetix": 23.1,
+        "gift": 15.2
+      }
+    }
+  }
 }
